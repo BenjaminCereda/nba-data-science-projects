@@ -18,7 +18,7 @@ The data used in both projects was sourced from:
 The main object of this project was to, based on player statistics and selections for previous seasons, make predictions for participants in the NBA All Star game and the winner of the NBA season MVP.
 The predictions where made using different machine learning models.
 Results where thoroughly reviewed and visualized using a number of model performance metrics. 
-Best performance while prediction the All Star game participants was achieved by the XBG classifier, with a ROC-AUC score of ~85%.
+Best performance while predicting the All Star game participants was achieved by a XGBoost classifier, with a ROC-AUC score of ~85%.
 For the prediction of the NBA MVP, the best result was delivered by a random forest classifier, with an F1 score of 67%.
 The project can thus be divided in three main sections:
 
