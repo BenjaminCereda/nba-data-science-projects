@@ -1,6 +1,6 @@
 This repository contains two data science projects utilizing NBA player data, the contents of which are the following:
 - An analysis of the relation between NBA player statistics and salary.
-- A forecast of NBA All Star game and NBA MVP selections, based on player and team performance.
+- A forecast of NBA All Star game and NBA MVP selections, based on player performance.
 
 The following tools and technologies are used:
 
@@ -15,16 +15,17 @@ The data used in both projects was sourced from:
 ## Brief Description
 
 ### 1. NBA All Star and MVP Predictions
-The main object of this project was to, based on player statistics and selections for previous seasons, make predictions for participants in the NBA All Star game and the NBA season MVP.
-The predictions where made using three different machine learning models, namely XGB regression, logarithmic regression and decision trees.
+The main object of this project was to, based on player statistics and selections for previous seasons, make predictions for participants in the NBA All Star game and the winner of the NBA season MVP.
+The predictions where made using different machine learning models.
 Results where thoroughly reviewed and visualized using a number of model performance metrics. 
-Best performance was achieved by the XBG regressor, with a ROC-AUC score of ~85% for predicting the All Star game participants.
+Best performance while prediction the All Star game participants was achieved by the XBG classifier, with a ROC-AUC score of ~85%.
+For the prediction of the NBA MVP, the best result was delivered by a random forest classifier, with an F1 score of 67%.
 The project can thus be divided in three main sections:
 
 - Cleaning and transformation of player statistics data  
 - Exploratory data analysis with visualizations
-- Training of machine learning models (Logistic Regression, Decision Tree and XGB Regression)
-- Performance review of the above, with visualizations  
+- Training of machine learning models (Logistic Regression, Decision Tree, XGBoost Regression, XGBoost Classifier, Naive Bayes Classifier, Random Forest Classifier)
+- Performance review of the above, with visualizations
 
 ### 2. NBA Salary Prediction
 The content of this project is the exploration of the relation of NBA player statistics and salaries throughout various seasons.
