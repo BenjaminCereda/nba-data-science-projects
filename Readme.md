@@ -1,6 +1,7 @@
 This repository contains two data science projects utilizing NBA player data, the contents of which are the following:
 - An analysis of the relation between NBA player statistics and salary.
 - A forecast of NBA All Star game and NBA MVP selections, based on player performance.
+- The csv files used for the project
 
 The following tools and technologies are used:
 
